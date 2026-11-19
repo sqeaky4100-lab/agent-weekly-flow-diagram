@@ -3,6 +3,8 @@
 Static archive of the weekly **Weekly Flow – Combined Diagram**, one
 self-contained page per week. The site root opens on the newest diagram.
 
+Live: <https://agent-weekly-flow-diagram-2026-11-1.vercel.app/>
+
 ## Layout
 
 ```
@@ -25,7 +27,7 @@ them; it never rewrites them.
    or `YYYYMMDD` works; `<meta name="diagram:date" content="YYYY-MM-DD">` in the
    page overrides the filename.
 2. Run `npm run index` to regenerate `diagrams.json` and `index.html`.
-3. Commit and push. If the repo is connected to Vercel, it redeploys on push.
+3. Commit and push to `main`. Vercel redeploys production on push.
 
 ## Local preview
 
