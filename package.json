@@ -1,0 +1,11 @@
+{
+  "name": "agent-weekly-flow-diagram",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static archive of the weekly Weekly Flow combined diagrams.",
+  "type": "module",
+  "scripts": {
+    "index": "node scripts/build-index.mjs",
+    "dev": "node scripts/build-index.mjs && python3 -m http.server 4000"
+  }
+}
